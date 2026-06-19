@@ -260,8 +260,11 @@ section {
 	inset: 0;
 	background-size: cover;
 	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #000;
 	transition: opacity 320ms ease;
 	opacity: 1;
+	pointer-events: auto;
 	z-index: 2;
 }
 
